@@ -1,0 +1,9 @@
+
+
+<% if user_signed_in? %> <%#methode disponible avec Devise%>
+  <% @users.each do |x| %>
+    <%=  x.email %>
+  <%  end %>
+<% else %>
+  <%= link_to "Sign up", new_user_registration_path, class:"btn btn-primary" %>
+<% end %>
