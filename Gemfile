@@ -16,9 +16,9 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'devise'
 
-gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem "fog"
+gem 'carrierwave', '~> 1.0'
 
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
