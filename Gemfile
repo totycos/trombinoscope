@@ -18,6 +18,7 @@ gem 'devise'
 
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
+gem "fog"
 
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
