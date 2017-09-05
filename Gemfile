@@ -15,9 +15,11 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 gem "mini_magick"
-gem "fog"
+gem "fog" #pour heberger ses images sur amazon web service (pas obligatoire)
 gem 'carrierwave', '~> 1.0'
 
 gem 'puma', '~> 3.7'
